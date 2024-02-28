@@ -1,0 +1,119 @@
+/* Write some CSS below */
+.banner {
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/musique.jpg');
+	background-size: 50px;
+	background-position: center ;
+	padding: 40px;
+	text-align: center;
+}
+
+.banner h3 {
+	color: white;
+	font-size: 45px;
+}
+
+.banner p {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+}
+
+.button-blue {
+	background-color: #1A48E3;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 10px;
+	display: inline-block;
+	text-decoration: none;
+	transition: .3s;
+} 
+
+body {
+	margin: 0;
+	line-height: 1.5;
+}
+
+h1 {
+	color: hotpink;
+	font-family: fantasy ;
+	text-align: center;
+	height: 95px;
+	margin-top: 65px;
+	margin-bottom: 20px;
+	font-size: 60px;
+}
+h2 {
+	text-align: center;
+	background: lightpink;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+h3 {
+	margin-left: 30px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+
+}
+
+p {
+	text-align: justify;
+	font-family: serif;
+	margin: 20px;
+	
+}
+img {
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+}
+
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 40px;
+	margin: 60px;
+}
+
+.card-one img {
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 2px;
+}
+
+.card-one h3 {
+	margin-bottom: 0;
+	font-family: revert;
+	text-align: center;
+	font-size: 22px;
+}
+
+.card-one p {
+	text-align: center;
+}
+
+.footer {
+	background-color: lightpink;
+	text-align: center;
+	padding: 15px 0;
+}
+
+.footer p {
+	color: white;
+	font-size: 22px;
+	text-align: center;
+}
+
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-one {
+    width: auto;
+  }
+}
+
